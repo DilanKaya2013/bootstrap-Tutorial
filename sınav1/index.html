@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adım Soyadım</title>
+</head>
+<body>
+   <h1>Adım Soyadım </h1>
+   
+   <form action="https:/yazilimbilisim.net/ogrenciler/kontrol.php" method="post"></form>
+   <label for="Güvenlik Anahtarı:">GüvenlikAnahtarı:</label><br><br>
+   <input type="number" placeholder="247682747282847" id="Güvenlik Anahtarı"  name="Güvenlik Anahtarı"><br><br>
+   <label for="Eposta">Eposta:</label><br><br>
+   <input type="email" placeholder="kişi@Eposta.com" autocomplete="email" id="Eposta" name="Eposta" required><br><br>
+
+   <label for="dogum tarihi">dogum tarihi:</label><br><br>
+   <input type="date"  min="2000-01-01" max="2010-01-31" id="dogum tarihi" name="dogum tarihi"><br><br>
+    
+   <label for="sifre">Şifre:</label><br><br>
+   <input type="password" placeholder="sifre" minlength="8" maxlength="8" name="sifre" required><br><br>
+
+   <label for="Avatar Seçimi">Avatar Seçimi:</label><br><br>
+         <input type=" text" list="Avatar Seçimi"  id="Avatar Seçimi" name="Avatar Seçimi"><br><br>
+         <datalist id="Avatar Seçimi">
+            <option value="dory"></option>
+            <option value="nemo"></option>
+            <option value="moana"></option>
+             <option value="rango"></option>
+         </datalist>
+
+         <button type="submit">Kaydet</button>
+         <button type="reset"> Temizle</button>
+</body>
+</html>
