@@ -1,0 +1,180 @@
+:root{
+    --renk-koyu-mavi:#075192;
+    --renk-acik-mavi:#0c63a9;
+}
+
+/*üst kısım*/
+header{
+    background-color: var(--renk-koyu-mavi);
+    
+}
+
+#main-menu{
+    background-color:var(--renk-acik-mavi) ;
+}
+
+#main-menu .nav-link{
+    color: #fff;
+}
+
+#site-baslik h2{
+    color: var(--renk-koyu-mavi);
+}
+
+#site-baslik h3{
+    color: var(--renk-acik-mavi);
+}
+
+/*orta bölüm*/
+
+#liste-baslik{
+    height: 70px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+#baglanti-liste .list-group-item{
+    background-color: var(--renk-acik-mavi);
+}
+
+#baglanti-liste .nav-link{
+    color: #fff;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 75px;
+    height: auto;
+}
+
+#slider1 .carousel-caption h5{
+    background-color: #00000055;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/*genel css*/
+.sol-ust-yuvarla{
+    border-top-left-radius: 1rem;
+}
+
+.sag-alt-yuvarla{
+    border-bottom-right-radius: 2rem !important;
+}
+
+/*main satır 3*/
+
+.listeler h4{
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    border-bottom-right-radius: 2.5rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+#baslik-haber{
+    background-color: #e91546;
+}
+
+#baslik-duyuru{
+    background-color: #fc6f20;
+}
+
+#baslik-islem{
+    background-color: #71b908;
+}
+
+#list-haber a{
+    color: #aaa;
+    text-decoration: none;
+}
+
+#list-haber a:hover{
+    color: red;
+}
+
+#list-duyuru a{
+    color: #aaa;
+    text-decoration: none;
+}
+
+#list-duyuru a:hover{
+    color: #fc6f20;
+}
+
+#list-islem a{
+    color: #aaa;
+    text-decoration: none;
+}
+
+#list-islem a:hover{
+    color: #71b908;
+}
+
+/*satır 4*/
+
+#baslik-istatistik{
+    padding: 1.5rem;
+    color: #075192;
+}
+#baslik-iletisim{
+    padding: 1.5rem;
+    color: #075192;
+}
+#baslik-kurum{
+    padding: 1.5rem;
+    color: #075192;
+}
+
+.table th{
+    color: #1295D5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.kucuk-resim{
+    width: 100%;
+    height: 100px;
+    object-fit: fill;
+}
+
+
+.btn-acik-mavi{
+    background-color: var(--renk-acik-mavi);
+    color: #fff;
+}
+
+.btn-acik-mavi:hover{
+    outline: 3px solid var(--renk-acik-mavi);
+    color:var(--renk-acik-mavi);
+}
+
+
+
+
+
+#panel1{
+   background-color: #888;
+}
+#panel1 th{
+    color: var(--renk-acik-mavi);
+}
+
+.btn-acik-mavi{
+    background-color: var(--renk-acik-mavi);
+    color: #fff;
+}
+.btn-acik-mavi:hover{
+   outline: 3px solid var(--renk-acik-mavi);
+   color: var(--renk-acik-mavi);
+}
+
+#panel1 .kurum-resim{
+    width: 100%;
+    height: 100px;
+    object-fit: fill;
+}
+
