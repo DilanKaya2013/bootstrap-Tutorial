@@ -1,0 +1,114 @@
+:root{
+    --renk-koyu-mavi:  #075192;
+    --renk-acik-mavi:  #0c63a9;
+}
+
+
+/*ust-kısım*/
+header{
+    background-color:var(--renk-koyu-mavi);
+}
+
+
+#main-menu{
+    background-color:var(--renk-acik-mavi);
+}
+
+
+#main-menu .nav-link{
+    color: #fff;
+}
+
+#site-baslik h2{
+    color: var(--renk-koyu-mavi);
+
+}
+
+#site-baslik h3{
+    color: var(--renk-acik-mavi);
+}
+
+/*Orta Bölüm*/
+
+#baglanti-liste .list-group-item{
+    background-color: var(--renk-acik-mavi);
+}
+
+#baglanti-liste .nav-link{
+    color: #fff;
+}
+.carousel-indicators [data-bs-target]{
+    width: 75px;
+    height: auto;
+   
+}
+
+#slider1 .carousel-indicator-caption h5{
+    background-color: #000005;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+
+/*genel css*/
+
+.sag-alt-yuvarla{
+    border-bottom-right-radius: 1rem;
+}
+.sol-ust-yuvarla{
+    border-top-left-radius: 1rem !important;
+}
+
+
+/*main satır 3*/
+
+.listeler h4{
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-right-radius: 2.5rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+
+}
+#baslik-haber{
+   background-color: #e91546;
+  
+}
+
+#baslik-duyuru{
+    background-color:#fcbf20;
+ }
+
+ #baslik-ayar{
+    background-color:#71b908;
+ }
+
+
+#list-haber a{
+    color: #aaa;
+    text-decoration: none;
+    
+}
+#list-duyuru a{
+    color: #aaa;
+    text-decoration: none;
+    
+}
+#list-ayar a{
+    color: #aaa;
+    text-decoration: none;
+    
+}
+
+#list-haber a:hover{
+    color: #e91546;
+}
+#list-duyuru a:hover{
+    color: #fcbf20;
+}
+#list-ayar a:hover{
+    color: #71b908;
+}
+
