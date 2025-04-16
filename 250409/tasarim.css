@@ -1,0 +1,100 @@
+.btn-primary{
+    background-color: var(--bs-primary);
+}
+
+
+/*Header*/
+
+
+#lang-menu a,
+#social-menu a,
+#social-panel a{
+    color: var(--bs-white);
+}
+
+
+#lang-menu a:hover,
+#social-menu a:hover{
+    color: var(--bs-black);
+    
+}
+
+
+#social-menu{
+    border-left: 1px solid var(--bs-white);
+}
+
+
+input[type=search]::placeholder {
+   color: var(--bs-secondary);
+  }
+
+  input[type=search]:focus{
+    box-shadow: none;
+  }
+   
+
+
+  #search-panel input::placeholder{
+   background-color: var(--bs-secondary);
+}  
+
+
+#search-panel button:hover{
+    background-color: var(--bs-secondary);
+    
+    
+}
+
+
+#search-panel .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+#bolum1{
+    position: relative;
+    z-index: 100;
+    margin-top: -50px;
+}
+
+#bolum1 .card{
+    background-color: var(--bs-secondary-border-subtle);
+}
+
+#bolum1 .card-body{
+    border: 2px solid var(--bs-white);
+}
+
+
+.yatay-cizgi{
+    border:1px solid white ;
+}
+
+
+
+
+
+
+
+
+
+
