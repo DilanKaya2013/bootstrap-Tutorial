@@ -1,0 +1,23 @@
+
+.carousel-caption  h5{
+    background: #00aeffa7;
+
+}
+
+#social-menu {
+    font-size: 1.5rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+#panel1 .panel-resim{
+    width: 100½;
+    height:auto;
+    object-fit: fill;
+}
+
+.logoresponsive{
+    width: 100%;
+    height: auto;
+}
